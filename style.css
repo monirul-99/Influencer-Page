@@ -286,4 +286,30 @@ p.see-more-btn {
     color: #E02C6D;
     margin-left: 80%;
     margin-top: 25px;
+    margin-bottom: 100px;
+}
+
+
+section.feature-product {
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+
+.feature-details {
+    margin-left: 96px;
+}
+
+.feature-details > h1 {
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.feature-details > p {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #6C6C6C;
 }

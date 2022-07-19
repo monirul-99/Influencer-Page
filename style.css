@@ -17,7 +17,7 @@ body
 {
     width: 80%;
     margin: auto;
-    height: 7000px;
+    /* height: 7000px; */
 }
 
 .navigation
@@ -291,7 +291,7 @@ p.see-more-btn {
 
 
 section.feature-product {
-    width: 85%;
+    width: 75%;
     margin: auto;
     display: flex;
 }
@@ -312,4 +312,65 @@ section.feature-product {
     line-height: 28px;
     font-weight: 700;
     color: #6C6C6C;
+}
+
+button.join-now {
+    margin-top: 40px;
+    width: 155px;
+    height: 44px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    background: #E02C6D;
+    color: white;
+}
+
+footer.footer-area {
+    width: 100%;
+    height: 300px;
+    background: #0A0826;
+    margin-top: 100px;
+}
+
+footer.footer-area > h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+footer.footer-area > p {
+    text-align: center;
+    color: #D9DBE1;
+    font-size: 17px;
+    line-height: 24px;
+    padding-top: 25px;
+}
+
+.circle-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #22203A;
+    margin-left: 20px;
+}
+
+.footer-icon 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.circle-icon > i 
+{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    color: white;
 }

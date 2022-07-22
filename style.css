@@ -66,6 +66,16 @@ body
     visibility: hidden;
 }
 
+.extra-img-one,
+.extra-img-two,
+.extra-img-three,
+.extra-img-four,
+.extra-img-five,
+.extra-img-six,
+.extra-img-seven {
+    display: none;
+}
+
 /* Cover Area Started */
 
 .cover-details
@@ -392,7 +402,7 @@ footer.footer-area > p {
     body{
         width: 1724px;
         height: 8000px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .navigation{
@@ -542,6 +552,17 @@ footer.footer-area > p {
     .many-logo-mobile > div{
         margin-left: 94px;
     }
+
+    .extra-img-one,
+    .extra-img-two,
+    .extra-img-three,
+    .extra-img-four,
+    .extra-img-five,
+    .extra-img-six,
+    .extra-img-seven {
+    display: block;
+    }
+
 
     .one-mobile{
         width: 250px;

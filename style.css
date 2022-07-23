@@ -401,8 +401,8 @@ footer.footer-area > p {
 @media only screen and (max-width: 490px) {
     body{
         width: 100%;
-        height: 12000px;
-        border: 1px solid red;
+        /* height: 12000px;
+        border: 1px solid red; */
     }
 
     .influencer-title,
@@ -568,10 +568,56 @@ footer.footer-area > p {
     .many-logo{
         display: none;
     }
+
     .popular-collection{
-        display: none;
+        display: block;
     }
+
+    .products{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: -26px;
+    }
+
+    .see-more{
+        margin-left: -222px;
+    }
+
     .feature-product{
-        display: none;
+        display: flex;
+        flex-direction: column-reverse;
     }
+
+    .feature-image > img{
+        width: 130%;
+        margin-left: -34px;
+        margin-top: 35px;
+    }
+
+    .feature-details > h1{
+        position: absolute;
+        font-size: 30px;
+        width: 100%;
+        line-height: 34px;
+        text-align: center;
+        margin-left: -172px;
+    }
+
+    .feature-details > p{
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin-top: 90px;
+        line-height: 22px;
+        margin-left: -172px;
+        font-size: 10px;
+        font-weight: 600;
+        color: #454545;
+    }
+
+    .join-btn-div{
+        margin-top: 140px;
+        margin-left: -65px;
+    }
+
 }
